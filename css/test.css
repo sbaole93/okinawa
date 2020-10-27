@@ -1,0 +1,46 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+
+/*There are rule sets*/
+h1{
+	font-size: 30px;
+	color: #36E761;
+}
+
+h2{
+	font-size: 20px;
+	color: salmon;
+}
+
+/*When there are two types the same rule set, 
+if there is a conflict, the later one will take prescedent*/
+h2{
+	color: green;
+}
+
+/*using the . will look for class sets*/
+.big{
+	font-size: 50px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+/*This style will only look for classes with both big and uppercase*/
+.big.uppercase{
+	color: teal;
+}
+
+/*this is purely for spans inside the h1 elements
+because this is more specific than the span rule set
+it will take prescedent*/
+h1 span{
+	color: black;
+}
+
+/*all span elements*/
+span{
+	color: violet;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Style Test</title>
+
+	<!--we will use this link tag if 
+		we want to reference css files
+		rel: relationship
+		href: direct reference-->
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+
+	<!--This element is used if we set styles within this html page-->
+	<!--
+	<style type="text/css">	
+	</style>
+	-->
+
+</head>
+<body>
+
+	<span>Span elements</span>
+	<!-- This type of style is inline, this is specific so if it 
+	conflicts with rule sets. This style will take over -->
+	<h1 style="font-size: 30px; color: #36E761;">Heading 1 - 1</h1>
+
+	<!--Individual class styles-->
+	<h1 class="big">Heading 1 - 2</h1>
+
+	<!--span elements are purely empty elements-->
+	<h1 class="uppercase"><span>Heading 1</span> - 3</h1>
+
+
+	<h2 style="font-size: 20px; color: salmon">Heading 2 - 1</h2>
+
+	<!--This has 2 classes: big & uppercase, they are seperated by a space -->
+	<h2 class="big uppercase">Heading 2 - 2</h2>
+	<h2>Heading 2 - 3</h2>
+
+</body>
+</html>
