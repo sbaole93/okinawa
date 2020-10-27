@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	line-height: 20px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 30px;
+	color: grey;
+	border: 2px solid black;
+	background-color: lightyellow;
+	margin: 5px;
+}
+
+h1, h2{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+header{
+	border: 1px solid black;
+	background-color: lightyellow;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+header h1{
+	color: black;
+}
+
+header img{
+	border-radius: 200px;
+	width: 400px;
+	border: 5px solid black;
+}
+
+main{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+main p{
+	text-align: center;
+}
+
+main img{
+	max-width: 100%;
+	border-radius: 100px;
+	border: 5px solid black;
+	width: 800px;
+	text-align: center;
+}
+
+li{
+	padding: 0px;
+}
+
+ol, ul {
+	list-style-position: inside;
+}
+
+a{
+	color: dodgerblue;
+}
+
+/*sudo class*/
+a:hover{
+	color: grey;
+}
+
+.caption{
+	margin: 0px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+footer{
+	background-color: grey;
+	text-align: center;
+	color: white;
+}
