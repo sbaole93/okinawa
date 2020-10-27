@@ -42,6 +42,7 @@ header img{
 main{
 	margin: 0 auto;
 	padding-top: 10px;
+	max-width: 800px;
 }
 
 main p{
@@ -53,7 +54,6 @@ main img{
 	border-radius: 100px;
 	border: 5px solid black;
 	width: 1000px;
-	text-align: center;
 }
 
 li{
